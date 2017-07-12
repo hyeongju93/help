@@ -31,7 +31,7 @@ set 개념
 for(int i=0;i<set.size();i++) 이것을 사용할수 없다.(순서가 없기 때문에) 그래서
 for(Integer a : set){ sysout(a) } 를 사용해서 집합안에 있는 전체를 출력한다.
 
-3. set의 정의는 Set<Integer> set=new HashSet<Integer>(); [여기서 Integer(제네릭)은 선택이다.]
+3. set의 정의는 Set<Integer> set=new HashSet<Integer>(); [여기서 <Integer> 이 부분도 필수로 써줘야 함 다만 꼭 Integer일 필요는 없음]
 set과 hashset은 import를 생성해주어야 한다. hash로 하는 이유는 hash 값으로 중복을 구별하기 때문
 
 4. 
